@@ -1,7 +1,7 @@
 import React from "react";
 import backOfCard from "./back.png";
 import "./PlayingCard.css"
-import useFlip from "./hooks"; // Import the hook
+import { useFlip } from "./hooks"; // Import the hook
 
 /* Renders a single playing card. */
 function PlayingCard({ front, back = backOfCard }) {
